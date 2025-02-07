@@ -1,0 +1,206 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+header{
+    background-color: #CE4257;
+}
+header span{
+    color: #edede9;
+}
+.nav-item a{
+    color: white;
+}
+/*Link visitado*/ 
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:hover{
+    color: #720026;
+}
+#nav-button{
+    background-color: #720026;
+}
+.bi{
+    color: #CE4257;
+    font-size: 2em;
+}
+.img-proyecto1{
+    background-image: url('Galeria/fer.jpeg');
+    background-size: cover;
+    background-blend-mode: screen;
+
+}
+.img-proyecto2{
+    background-image: url('Galeria/18.jpeg');
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.img-proyecto3{
+    background-image: url('Galeria/violeta.jpeg');
+    background-size: cover;
+    background-blend-mode: screen;
+}
+/* Diseño del contenedor */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Ocupa toda la pantalla */
+    background-color: #720026; /* Color de fondo */
+}
+
+/* Estilos para el video */
+video {
+    width: 80%; /* Ajuste responsivo */
+    max-width: 900px; /* Máximo tamaño */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Sombra elegante */
+    outline: none;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    video {
+        width: 95%;
+    }
+}
+/* OTRO */
+/* Contenedor de la sección */
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: #CE4257;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Pasos */
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.step img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.step p {
+    flex: 1;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+/* Botón interactivo */
+.commands {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.command-btn {
+    background: #720026;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.command-btn:hover {
+    background: #720026;
+}
+ /* Contenedor de la galería */
+ .video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Videos estilizados */
+.video-gallery video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+/*INTENTO*/
+ /* Contenedor del carrusel */
+ .carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 20px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slide p {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+/* Botones del carrusel */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+footer {
+    background: #CE4257;
+}
+
+/*Paleta de colores
+  FF9B54
+  FF7F51
+  CE4257
+  720026
+  4F000B
+*/ 
