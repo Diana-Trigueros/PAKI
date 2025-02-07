@@ -144,19 +144,7 @@
             <p><strong>Solution:</strong> Enhanced AI to interpret multiple phrases accurately.</p>
         </div>
     </div>
-    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-    <button class="next" onclick="moveSlide(1)">&#10095;</button>
 </div>
-<script>
-    let currentIndex = 0;
-
-    function moveSlide(step) {
-        const slides = document.querySelectorAll('.slide');
-        const totalSlides = slides.length;
-        currentIndex = (currentIndex + step + totalSlides) % totalSlides;
-        document.querySelector('.carousel').style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-</script>
       <!--Termina-->
       <section id="proyectos">
         <div class="container px-4 py-5" id="custom-cards">

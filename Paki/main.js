@@ -1,10 +1,8 @@
 // console.log("Hola Mundo! desde la colsola");
-var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
     loop: true
 });
-
 typewriter.typeString('ROBOT ART')
     .pauseFor(2500)
     .deleteAll()
