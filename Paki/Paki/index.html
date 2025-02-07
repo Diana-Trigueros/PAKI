@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Google foonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!--Link de conexion de html al enlace css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Iconos bootrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="/assets/code-square.svg" type="image/x-icon">
+    <!--Titulo de la pagina-->
+    <title> Quantum Girls</title>
+</head>
+<body>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">Robot ART</span>
+            </a>
+              <ul class="nav nav-pills">
+              <li class="nav-item"><a id="nav-button" href="#sobre-mi" class="nav-link active" aria-current="page">Paki</a></li>
+              <li class="nav-item"><a href="#habilidades" class="nav-link">Data</a></li>
+              <li class="nav-item"><a href="#proyectos" class="nav-link">Quantum Girls</a></li>
+              <li class="nav-item"><a href="#constancias" class="nav-link">Constancias</a></li>
+              <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+         </header>
+  <main>
+    <section  id="sobre-mi">
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 rounded-circle" src="Galeria/perfil.jpeg" alt="Foto de perfil" width="300" height="300">
+            <h1 class="display-5 fw-bold text-body-emphasis">PAKI</h1>
+
+            <div id="app"></div>
+
+            <h2> Quantum Girls | UAEH | LiFTA</h2>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Meet Quantum Girls and the Drawing Robot PAKI!</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--Video-->
+      <section>
+        <div class="video-container">
+            <video controls>
+                <source src="Galeria/present.mp4" type="video/mp4">
+            </video>
+        </div>
+      </section>
+      <!--Empieza Habilidades-->
+      <section id="habilidades">
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom">Data</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-award"></i> <!-- ojo borre svg-->
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Robot</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Purpose</h3>
+                <p>He creado sitios responsivos aplicando mis conocimientos en TecnoloChicas PRO. Utilizo Phayton para el analisis de datos en proyectos de mi universidad, asi como LATEX para la realizacion de trabajos</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Technologies Used</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--OTRO-->
+      <section>
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">How It Works</h2>
+        <div class="how-it-works">
+            <div class="step">
+                <p><strong>1. Voice Command:</strong> The user gives a voice instruction to the app.</p>
+                <img src="Galeria/18.jpeg" alt="Voice Command">
+            </div>
+            <div class="step">
+                <p><strong>2. Processing:</strong> The app interprets the command and sends it to the robot.</p>
+                <img src="Galeria/violeta.jpeg" alt="App Processing">
+            </div>
+            <div class="step">
+                <p><strong>3. Drawing:</strong> The robot moves its arm and draws the requested shape.</p>
+                <img src="Galeria/perfil.jpeg" alt="Robot Drawing">
+            </div>
+        </div>
+        <h2>Gallery</h2>
+        <div class="video-gallery">
+            <video controls>
+                <source src="Galeria/present.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+            </video>
+            
+            <video controls>
+                <source src="video4.mp4" type="video/mp4">
+            </video>
+        </div>
+      </section>
+<!--Intento-->
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="slide">
+            <img src="Galeria/armado.jpeg" alt="Early Version">
+            <p><strong>Challenge:</strong> The robot had difficulty drawing precise shapes.</p>
+            <p><strong>Solution:</strong> Improved motor control and calibration.</p>
+        </div>
+        <div class="slide">
+            <img src="Galeria/WhatsApp Image 2025-02-07 at 4.09.43 AM.jpeg" alt="App Latency">
+            <p><strong>Challenge:</strong> Delay in communication between app and robot.</p>
+            <p><strong>Solution:</strong> Optimized code to reduce response time.</p>
+        </div>
+        <div class="slide">
+            <img src="Galeria/final.jpeg" alt="Final Version">
+            <p><strong>Challenge:</strong> The voice recognition struggled with complex commands.</p>
+            <p><strong>Solution:</strong> Enhanced AI to interpret multiple phrases accurately.</p>
+        </div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+      <!--Termina-->
+      <section id="proyectos">
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">Quantum Girls</h2>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="img-proyecto1 card card-cover h-100 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fernanda</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img-proyecto2 card card-cover h-100 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Diana</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img-proyecto3 card card-cover h-100 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Violeta</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="testimonios" class="mt-5">
+        <h2 id="proyectos" class="pb-2 border-bottom text-center">Our Team Advisors</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Card carousel -->
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="Galeria/alex.jpeg" class="rounded-circle card-img-top" alt="alex">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Mentor</h5>
+                    <div class="card-header">
+                      Ing. Alex Monavel
+                    </div>
+                    <p class="card-text text-center">Behind every great project, there's a great mentor! Our advisor played a key role in guiding us through challenges, offering technical expertise, and helping us refine our robot’s performance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2></h2>
+            <!-- Card -->
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="Galeria/papaki.jpeg" class="rounded-circle card-img-top" alt="hombre">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Advisor</h5>
+                    <div class="card-header">
+                      Dr. Roberto N. Papaqui
+                    </div>
+                    <p class="card-text text-center"> Our mentor provided key to present the robotic arm project</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+  </main>
+  <footer class="py-3 my-4">
+    <p class="text-center">Quantum Girls in <a href="" target="_blank">Robot ART</a></p>
+  </footer>
+   <!--Typerwriter-->
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!---Script Bootrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--J S-->
+    <script src="main.js"></script>
+</body>
+</html>
