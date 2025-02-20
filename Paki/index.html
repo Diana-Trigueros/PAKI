@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <!--Link de conexion de html al enlace css-->
     <link rel="stylesheet" href="style.css">
-    <link rel="java" href="main.js">
     <!--Iconos bootrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="/assets/code-square.svg" type="image/x-icon">
@@ -28,8 +27,7 @@
               <li class="nav-item"><a id="nav-button" href="#sobre-mi" class="nav-link active" aria-current="page">Paki</a></li>
               <li class="nav-item"><a href="#habilidades" class="nav-link">Data</a></li>
               <li class="nav-item"><a href="#proyectos" class="nav-link">Quantum Girls</a></li>
-              <li class="nav-item"><a href="#constancias" class="nav-link">Constancias</a></li>
-              <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+              <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
             </ul>
          </header>
   <main>
@@ -51,9 +49,8 @@
       <!--Video-->
       <section>
         <div class="video-container">
-            <video controls>
-                <source src="Galeria/present.mp4" type="video/mp4">
-            </video>
+      <!--Video-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4ZTDJjGfUY4?si=1WgsihKauW3XVJSb&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
       <!--Empieza Habilidades-->
@@ -98,11 +95,11 @@
         <div class="how-it-works">
             <div class="step">
                 <p><strong>1. Voice Command:</strong> The user gives a voice instruction to the app.</p>
-                <img src="Galeria/18.jpeg" alt="Voice Command">
+                <img src="Galeria/app.jpeg" alt="Voice Command">
             </div>
             <div class="step">
                 <p><strong>2. Processing:</strong> The app interprets the command and sends it to the robot.</p>
-                <img src="Galeria/violeta.jpeg" alt="App Processing">
+                <img src="Galeria/pak.jpeg" alt="App Processing">
             </div>
             <div class="step">
                 <p><strong>3. Drawing:</strong> The robot moves its arm and draws the requested shape.</p>
@@ -110,43 +107,15 @@
             </div>
         </div>
         <h2>Gallery</h2>
-        <div class="video-gallery">
+        <div class="video-gallery" id="gallery">
             <video controls>
                 <source src="Galeria/present.mp4" type="video/mp4">
             </video>
             <video controls>
-                <source src="video2.mp4" type="video/mp4">
-            </video>
-            <video controls>
-                <source src="video3.mp4" type="video/mp4">
-            </video>
-            
-            <video controls>
-                <source src="video4.mp4" type="video/mp4">
+                <source src="Galeria/protfin.mp4" type="video/mp4">
             </video>
         </div>
       </section>
-<!--Intento-->
-<div class="carousel-container">
-    <div class="carousel">
-        <div class="slide">
-            <img src="Galeria/armado.jpeg" alt="Early Version">
-            <p><strong>Challenge:</strong> The robot had difficulty drawing precise shapes.</p>
-            <p><strong>Solution:</strong> Improved motor control and calibration.</p>
-        </div>
-        <div class="slide">
-            <img src="Galeria/WhatsApp Image 2025-02-07 at 4.09.43 AM.jpeg" alt="App Latency">
-            <p><strong>Challenge:</strong> Delay in communication between app and robot.</p>
-            <p><strong>Solution:</strong> Optimized code to reduce response time.</p>
-        </div>
-        <div class="slide">
-            <img src="Galeria/final.jpeg" alt="Final Version">
-            <p><strong>Challenge:</strong> The voice recognition struggled with complex commands.</p>
-            <p><strong>Solution:</strong> Enhanced AI to interpret multiple phrases accurately.</p>
-        </div>
-    </div>
-</div>
-      <!--Termina-->
       <section id="proyectos">
         <div class="container px-4 py-5" id="custom-cards">
           <h2 class="pb-2 border-bottom">Quantum Girls</h2>
